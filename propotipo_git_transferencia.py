@@ -27,7 +27,7 @@ st.header("🔄 Seleção de Lojas")
 
 col1, col2 = st.columns([1, 1])
 with col1:
-    lojas = ["MIMI", "KAMI", "TOTAL MIX"]
+    lojas = ["MIMI", "KAMI", "TOTAL MIX", "E-COMMERCE"]
     de_loja = st.selectbox("De qual loja está saindo a transferência?", lojas)
 with col2:
     para_lojas = [loja for loja in lojas if loja != de_loja]
